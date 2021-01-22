@@ -42,7 +42,7 @@ export default class Navbar extends Component {
               <Link to="/Ofertas">Ofertas</Link>
             </li>
             <li>
-              <Link to="/contactanos">Contáctenos</Link>
+              <Link to="/datos">Ingresar Datos</Link>
             </li>
             <li>
               <Link to="/cerrarSesion">Cerrar Sesion</Link>

@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import logoHosteria from "../images/logoHosteria.jpg";
 import "../Css/login.css";
 import Title from "../components/Title";
+import Hero from "../components/Hero";
+import Banner from "../components/Banner";
+
+import RoomsContainer from "../components/RoomsContainer";
 
 const login = (props) => {
     const { email,
@@ -19,6 +23,14 @@ const login = (props) => {
         
     return (
         <>
+        <Hero hero="roomsHero">
+        <Banner title="Nuestras Habitaciones">
+          <Link to="/" className="btn-primary">
+            volver al inicio
+          </Link>
+        </Banner>
+      </Hero>
+      <RoomsContainer />
            <header >
                 <nav class= "navbar-login">
                         <div class= "logo">

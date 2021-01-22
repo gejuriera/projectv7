@@ -9,6 +9,7 @@ import Login from "./pages/login";
 import Rooms from "./pages/Rooms";
 import contactanos from "./pages/contactanos";
 import SingleRooms from "./pages/SingleRooms";
+import Datos from "./pages/datos";
 import Error from "./pages/Error";
 
 import Navbar from "./components/Navbar";
@@ -102,14 +103,15 @@ function App() {
         <Switch>
         
         <div> 
+          
         
           <Navbar/> 
           <Route exact path="/" component={Home} />
           <Route exact path="/rooms/" component={Rooms} />
           <Route exact path="/contactanos/" component={contactanos} />
+          <Route exact path="/datos/" component={Datos} />
           <Route exact path="/cerrarSesion/" component={handleLogout}/>
           <Route exact path="/rooms/:slug" component={SingleRooms} />
-          <Route component={Error} />
           
           
           <Footer />

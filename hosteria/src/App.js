@@ -11,7 +11,7 @@ import contactanos from "./pages/contactanos";
 import SingleRooms from "./pages/SingleRooms";
 import Datos from "./pages/datos";
 import Error from "./pages/Error";
-
+import Reserva from "./pages/Reserva";
 import Navbar from "./components/Navbar";
 import { Switch, Route } from "react-router-dom";
 import Footer from "./components/footer";
@@ -113,7 +113,8 @@ function App() {
           <Route exact path="/cerrarSesion/" component={handleLogout}/>
           <Route exact path="/rooms/:slug" component={SingleRooms} />
           
-          
+          <Route exact path="/reserva" component={Reserva} />
+
           <Footer />
         </div>
           

@@ -42,6 +42,9 @@ export default class Navbar extends Component {
               <Link to="/Ofertas">Ofertas</Link>
             </li>
             <li>
+              <Link to="/reserva">Reserva</Link>
+            </li>
+            <li>
               <Link to="/datos">Ingresar Datos</Link>
             </li>
             <li>

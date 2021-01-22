@@ -1,0 +1,108 @@
+.navbar-login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  background:  #a1c078;
+
+  z-index: 1;
+}
+
+.section-title-login {
+  text-align: center;
+  margin-top: 7rem;
+}
+.section-title-login h4 {
+  font-size: 2rem;
+  letter-spacing: rgb(5, 5, 5);
+  margin-bottom: 1rem;
+}
+.section-title-login div {
+  width: 10rem;
+  height: 5px;
+  margin: 0 auto;
+  background: var(--primaryColor);
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #164e5a;
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+  min-height: 75vh;
+  padding: 0 20px;
+  background: #ffffff;
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 450px;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #518aa5;
+}
+
+.login .loginContainer label {
+  color: white;
+  margin: 14px 0;
+  display: block;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+ 
+

@@ -10,8 +10,13 @@ import logoHosteria from "../images/logoHosteria.jpg";
  
 const Reserva = () => {
   return <div>  
-     <div className="App">
-     <h1>Estado de reserva</h1>
+     <div className="App" style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center" ,
+    
+    }}>
+  
       
       <Banner
             title="Estado de Reserva "
